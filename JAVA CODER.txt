@@ -1,0 +1,306 @@
+import java.util.Scanner;
+public class multiplication_table {
+    public static void main(String[] args) {
+        
+        //Take input for n number
+        Scanner table = new Scanner(System.in);
+        
+        System.out.println("Enter any number: ");
+        int n = table.nextInt();
+        
+        for(int i = 1; i <= 10; i++) {
+            int m = n * i;
+            System.out.println(n + " x " + i + " = " + m);
+        }
+    }
+}
+
+
+
+import java.util.Scanner;
+public class multiplication_table {
+    public static void main(String[] args) {
+        
+        //Take input for n number
+        Scanner table = new Scanner(System.in);
+        
+        System.out.println("Enter any number: ");
+        int n = table.nextInt();
+        
+        for(int i = 1; i <= 10; i++) {
+            int m = n * i;
+            System.out.println(n + " x " + i + " = " + m);
+        }
+    }
+}
+
+
+import java.util.Scanner;
+public class Daybyday {
+    public static void main(String[] args) {
+        
+        int day;
+        System.out.println("Enter any day of case: ");
+        Scanner daily = new Scanner(System.in);
+        
+        day = daily.nextInt();
+        switch(day) 
+        {
+            case 1:
+                System.out.println("\nSunday");
+                break;
+            case 2:
+                System.out.println("\nMonday");
+                break;
+            case 3:
+                System.out.println("\nTuesday");
+            case 4:
+                System.out.println("\nWednesday");
+                break;
+            case 5:
+                System.out.println("\nThursday");
+                break;
+            case 6:
+                System.out.println("\nFriday");
+                break;
+            case 7:
+                System.out.println("Saturday");
+            default:
+                System.out.println("Out of day-range: ");
+        }
+    }
+}
+
+
+import java.util.Scanner;
+public class main{
+    public static void main(String[] args) {
+        Scanner numbery = new Scanner(System.in);
+        
+        System.out.println("Enter any number: ");
+        int number = numbery.nextInt();
+        if(number % 2 == 0) {
+            System.out.println("This number is: EVEN:");
+        }
+        else {
+            System.out.println("This number is: ODD");
+        }
+    }
+}
+
+
+
+import java.util.Scanner;
+class main{
+    public static void main(String a[]) {
+        Scanner object = new Scanner(System.in);
+        
+        int fact = 1;
+        System.out.println("Enter Any number: ");
+        int num = object.nextInt();
+        
+        for(int i = 1; i <= num; i++) {
+            fact *= i;
+            
+        }
+        System.out.println("After factorial answer is:" + fact);
+    }
+}
+
+
+class main{
+    public static void main(String a[]) {
+        // String name1 = "pravesh";
+        // String name2 = " rakesh";
+        // String name3 = name1 + name2;
+        // System.out.println(name3);
+        // System.out.println("Pravesh" + " rakesh");
+        // System.out.println("Happy Birthday " + 2 + " You");
+        System.out.println(" ")
+    }
+}
+
+
+import java.util.Scanner;
+
+public class DaysOfWeek {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter any day code:");
+        int day = sc.nextInt();
+        
+        if(day == 1) {
+            System.out.println("Monday");
+        } else if(day == 2) {
+            System.out.println("Tuesday");
+        } else if(day == 3) {
+            System.out.println("Wednesday");
+        } else if(day == 4) {
+            System.out.println("Thursday");
+        } else if(day == 5) {
+            System.out.println("Friday");
+        } else if(day == 6) {
+            System.out.println("Saturday");
+        } else if(day == 7) {
+            System.out.println("Sunday");
+        } else
+            System.out.println("ftyj");
+    }
+}
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter any number:");
+        int num = sc.nextInt();
+        if(num > 0) {
+            System.out.println("Number is positive:");
+        } else if(num < 0) {
+            System.out.println("Number is Negative:");
+        } else {
+            System.out.println("Number is zero:");
+        }
+    }
+}
+
+
+
+
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter num1 value:");
+        int num1 = sc.nextInt();
+        
+        System.out.println("Enter num2 value:");
+        int num2 = sc.nextInt();
+        if(num1 > num2) {
+            System.out.println("num1 is greater number:");
+        } else {
+            System.out.println("num2 is greater number:");
+        }
+    }
+}
+
+
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter num1 value:");
+        int num1 = sc.nextInt();
+        
+        System.out.println("Enter num2 value:");
+        int num2 = sc.nextInt();
+        
+        System.out.println("Enter num3 value:");
+        int num3 = sc.nextInt();
+        
+        if(num1 > num2) {
+            System.out.println("num1 is greater number:");
+        } else if(num2 > num3) {
+            System.out.println("num2 is greater number:");
+        } else {
+            System.out.println("num3 is greater number:");
+        }
+    }
+}
+// in any case fail this programs
+
+
+package P2;
+// Ticket Pricing Problem 
+import java.util.Scanner;
+public class TicketPricing {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int age;
+		String membership = new String();
+		int price;
+		System.out.print("\n Enter Age of the person : " );
+		age = sc.nextInt();
+		System.out.print("\n Do you have membership yes/no :");
+		membership = sc.next();
+		if(age>=65)
+		{
+			// SCitizen 
+			price = 7;
+		}
+		else
+		{
+			if(age < 12)
+			{   // Child 
+				price = 5;
+			}
+			else
+			{   // adult person 
+				price = 10;
+			}
+		}
+		if(membership.equals("yes") == true )
+		{
+			price = price-2;
+		}
+		System.out.print("\n Price of Ticket : $" + price);
+
+	}
+
+}
+
+
+// with third variable
+class main{
+    public static void main(String a[]){
+        int num1 = 34;
+        int num2 = 87;
+        int temp;
+        
+        temp = num1;
+        num1 = num2;
+        num2 = temp;
+        System.out.println(" = " + num1+";");
+        System.out.println(" = " + num2+";");
+    }
+}
+
+
+// without third variable
+class main{
+    public static void main(String va[]){
+        int a = 1;
+        int b = 2;
+        
+        a = a + b;
+        b = a - b;
+        a = a - b;
+         System.out.println(a);
+        System.out.println(b);
+    }
+}
+
+
+// WAP Tmount out and remain amount;
+import java.util.Scanner;
+class main{
+    public static void main(String a[]) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter Total Amount: ");
+        int TAmount = sc.nextInt();
+        
+        System.out.println("Enter withdraw Amount: ");
+        int WAmount = sc.nextInt();
+        
+        int remaingAmount = TAmount - WAmount;
+        System.out.println("remaining amount is: " + remaingAmount);
+    }
+}
