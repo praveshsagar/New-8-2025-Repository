@@ -1,3 +1,24 @@
+1. WAP TO TAKE INPUT FOR M = N * I;
+2. WAP TO TAKE INPUT FOR SWITCH DAY WITH SWITCH STATEMENT;
+3. WAP TO TAKE INPUT FOR SWITCH DAY BY IF-ELSE STATEMENT;
+4. WAP TO TAKE INPUT FOR CHECK EVEN OR ODD NUMBER;
+5. WAP TO TAKE INPUT FOR SOLVE FACTORIAL ANY NUMBER;
+6. WAP TO TWO STRING CONCATANATE;
+7. WAP TO TAKE INPUT FOR CHECK NUMBER IS POSITIVE. NEGATIVE AND ZERO;
+8. WAP TO TAKE INPUT FOR CHECK ANY TWO NUMBER WHICH NUMBER IS GREATER;
+9. WAP TO TAKE INPUT FOR CHECK ANY 3 NUMBER WHICH NUMBER IS GREATER WRITTEN BY ME
+
+
+
+
+
+
+
+
+
+
+
+1. TO TAKE INPUT FOR M = N * I; -------
 import java.util.Scanner;
 public class multiplication_table {
     public static void main(String[] args) {
@@ -17,24 +38,7 @@ public class multiplication_table {
 
 
 
-import java.util.Scanner;
-public class multiplication_table {
-    public static void main(String[] args) {
-        
-        //Take input for n number
-        Scanner table = new Scanner(System.in);
-        
-        System.out.println("Enter any number: ");
-        int n = table.nextInt();
-        
-        for(int i = 1; i <= 10; i++) {
-            int m = n * i;
-            System.out.println(n + " x " + i + " = " + m);
-        }
-    }
-}
-
-
+2. WAP TO TAKE INPUT FOR SWITCH DAY WITH SWITCH STATEMENT; -------
 import java.util.Scanner;
 public class Daybyday {
     public static void main(String[] args) {
@@ -72,57 +76,9 @@ public class Daybyday {
 }
 
 
+
+3. WAP TO TAKE INPUT FOR SWITCH DAY BY IF-ELSE STATEMENT; --------
 import java.util.Scanner;
-public class main{
-    public static void main(String[] args) {
-        Scanner numbery = new Scanner(System.in);
-        
-        System.out.println("Enter any number: ");
-        int number = numbery.nextInt();
-        if(number % 2 == 0) {
-            System.out.println("This number is: EVEN:");
-        }
-        else {
-            System.out.println("This number is: ODD");
-        }
-    }
-}
-
-
-
-import java.util.Scanner;
-class main{
-    public static void main(String a[]) {
-        Scanner object = new Scanner(System.in);
-        
-        int fact = 1;
-        System.out.println("Enter Any number: ");
-        int num = object.nextInt();
-        
-        for(int i = 1; i <= num; i++) {
-            fact *= i;
-            
-        }
-        System.out.println("After factorial answer is:" + fact);
-    }
-}
-
-
-class main{
-    public static void main(String a[]) {
-        // String name1 = "pravesh";
-        // String name2 = " rakesh";
-        // String name3 = name1 + name2;
-        // System.out.println(name3);
-        // System.out.println("Pravesh" + " rakesh");
-        // System.out.println("Happy Birthday " + 2 + " You");
-        System.out.println(" ")
-    }
-}
-
-
-import java.util.Scanner;
-
 public class DaysOfWeek {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -149,6 +105,62 @@ public class DaysOfWeek {
     }
 }
 
+
+
+4. WAP TO TAKE INPUT FOR CHECK EVEN OR ODD NUMBER; -------
+import java.util.Scanner;
+public class main{
+    public static void main(String[] args) {
+        Scanner numbery = new Scanner(System.in);
+        
+        System.out.println("Enter any number: ");
+        int number = numbery.nextInt();
+        if(number % 2 == 0) {
+            System.out.println("This number is: EVEN:");
+        }
+        else {
+            System.out.println("This number is: ODD");
+        }
+    }
+}
+
+
+5. WAP TO TAKE INPUT FOR SOLVE FACTORIAL ANY NUMBER; -------
+import java.util.Scanner;
+class main{
+    public static void main(String a[]) {
+        Scanner object = new Scanner(System.in);
+        
+        int fact = 1;
+        System.out.println("Enter Any number: ");
+        int num = object.nextInt();
+        
+        for(int i = 1; i <= num; i++) {
+            fact *= i;
+            
+        }
+        System.out.println("After factorial answer is:" + fact);
+    }
+}
+
+
+6. WAP TO TWO STRING CONCATANATE; --------
+class main{
+    public static void main(String a[]) {
+        // String name1 = "pravesh";
+        // String name2 = " rakesh";
+        // String name3 = name1 + name2;
+        // System.out.println(name3);
+        // System.out.println("Pravesh" + " rakesh");
+        // System.out.println("Happy Birthday " + 2 + " You");
+        System.out.println(" ")
+    }
+}
+
+
+
+
+7. WAP TO TAKE INPUT FOR CHECK NUMBER IS POSITIVE. NEGATIVE AND ZERO; --------
 import java.util.*;
 class Main {
     public static void main(String[] args) {
@@ -168,7 +180,7 @@ class Main {
 
 
 
-
+8. WAP TO TAKE INPUT FOR CHECK ANY TWO NUMBER WHICH NUMBER IS GREATER; -------
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
@@ -189,6 +201,7 @@ class Main {
 
 
 
+9. WAP TO TAKE INPUT FOR CHECK ANY 3 NUMBER WHICH NUMBER IS GREATER WRITTEN BY ME -------
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
@@ -212,11 +225,11 @@ class Main {
         }
     }
 }
-// in any case fail this programs
+in any case fail this programs
 
 
 package P2;
-// Ticket Pricing Problem 
+ Ticket Pricing Problem 
 import java.util.Scanner;
 public class TicketPricing {
 
@@ -257,7 +270,7 @@ public class TicketPricing {
 }
 
 
-// with third variable
+ with third variable
 class main{
     public static void main(String a[]){
         int num1 = 34;
@@ -273,7 +286,7 @@ class main{
 }
 
 
-// without third variable
+ without third variable
 class main{
     public static void main(String va[]){
         int a = 1;
@@ -288,7 +301,7 @@ class main{
 }
 
 
-// WAP Tmount out and remain amount;
+ WAP Tmount out and remain amount;
 import java.util.Scanner;
 class main{
     public static void main(String a[]) {
@@ -303,4 +316,118 @@ class main{
         int remaingAmount = TAmount - WAmount;
         System.out.println("remaining amount is: " + remaingAmount);
     }
+
 }
+
+
+
+ SWAp two number using third variable
+class main{
+    public static void main(String args[]) {
+        int x = 1;
+        int y = 2;
+        int z;
+        
+        z = x;
+        x = y;
+        y = z;
+        System.out.println(x);
+System.out.println(y);
+    }
+}
+
+Swap two number without any third variable;
+class main{
+    public static void main(String args[]) {
+        int x = 1;
+        int y = 2;
+        
+        x = x + y;
+        y = x - y;
+        x = x - y;
+        System.out.println("This value is x " + x);
+        System.out.println("This value is y " + y);
+
+    }
+}
+
+
+WAP take input any number & print all natural number:
+import java.util.Scanner;
+class main{
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter number of N: ");
+        int N = sc.nextInt();
+        System.out.println("Starting from here:");
+        // loop for running number
+        
+        
+        for(int i = 1; i <= N; i++) {
+            System.out.println(i + "");
+        }
+    }
+}
+
+
+ WAP take input 5 = output is 5 4 3 2 1;
+import java.util.Scanner;
+class main{
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter number of N: ");
+        int N = sc.nextInt();
+        System.out.println("Starting from here:");
+        // loop for running number
+        
+        
+        for(int i = N; i >= 1; i--) {
+            System.out.println(i + "");
+        }
+    }
+}
+
+
+
+ WAP to print all even number 1 to N take input ---- make by me
+import java.util.Scanner;
+class main{
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter number of N: ");
+        int N = sc.nextInt();
+        System.out.println("Starting from here:");
+         loop for running number
+        
+        
+      if (N % 2 == 0) {
+          for (int i = 2; i <= N; i += 2) {
+                System.out.println(i);
+          }
+        }
+    }
+}
+
+ WAP to take input for all print Even and odd number:
+import java.util.Scanner;
+class main{
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter any number: (N)");
+        int N = sc.nextInt();
+        
+        System.out.println("Even OR Odd number from 1 to "+N+";");
+        
+        for(int i = 1; i <= N; i++) {
+            if (i % 2 != 0) {
+            if (i % 2 == 0) {
+            System.out.println(i + " ");
+            }
+        }
+    }
+}
+
