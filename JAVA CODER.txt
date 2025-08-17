@@ -6,10 +6,10 @@
 6. WAP TO TWO STRING CONCATANATE;
 7. WAP TO TAKE INPUT FOR CHECK NUMBER IS POSITIVE. NEGATIVE AND ZERO;
 8. WAP TO TAKE INPUT FOR CHECK ANY TWO NUMBER WHICH NUMBER IS GREATER;
-9. WAP TO TAKE INPUT FOR CHECK ANY 3 NUMBER WHICH NUMBER IS GREATER WRITTEN BY ME
-
-
-
+9. WAP TO TAKE INPUT FOR CHECK ANY 3 NUMBER WHICH NUMBER IS GREATER WRITTEN BY ME -- FAILS MANY CONDITION 
+10. WAP TO TAKE INPUT FOR WHICH NUMBER IS GREATER IN ANY 3 NUMBER; FAILS EQUAL CONDITIONS
+11. WAP TO TAKE INPUT FOR SWAP 3 NUMBER WITH THIRD VARIABLE;
+11. WAP TO TAKE INPUT FOR SWAP 2 NUMBER WITHOUT THIRD VARIABLE;
 
 
 
@@ -228,49 +228,36 @@ class Main {
 in any case fail this programs
 
 
-package P2;
- Ticket Pricing Problem 
+
+
+10. WAP TO TAKE INPUT FOR WHICH NUMBER IS GREATER IN ANY 3 NUMBER; -------
 import java.util.Scanner;
-public class TicketPricing {
-
-	public static void main(String[] args) 
-	{
-		Scanner sc = new Scanner(System.in);
-		int age;
-		String membership = new String();
-		int price;
-		System.out.print("\n Enter Age of the person : " );
-		age = sc.nextInt();
-		System.out.print("\n Do you have membership yes/no :");
-		membership = sc.next();
-		if(age>=65)
-		{
-			// SCitizen 
-			price = 7;
-		}
-		else
-		{
-			if(age < 12)
-			{   // Child 
-				price = 5;
-			}
-			else
-			{   // adult person 
-				price = 10;
-			}
-		}
-		if(membership.equals("yes") == true )
-		{
-			price = price-2;
-		}
-		System.out.print("\n Price of Ticket : $" + price);
-
-	}
-
+class main{
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter any num1: ");
+        int num1 = sc.nextInt();
+        
+        System.out.println("Enter any num2: ");
+        int num2 = sc.nextInt();
+        
+        System.out.println("Enter any num3: ");
+        int num3 = sc.nextInt();
+        
+        if(num1 >= num2 && num1 >= num3) {
+             System.out.println("Number 1 is greater: ");
+        } else if(num2 >= num1 && num2 >= num3) {
+             System.out.println("Number 2 is greater: "); 
+        } else {
+             System.out.println("Number 3 is greater: ");
+        }
+    }
 }
 
 
- with third variable
+
+11. WAP TO TAKE INPUT FOR SWAP NUMBER WITH THIRD VARIABLE; -------
 class main{
     public static void main(String a[]){
         int num1 = 34;
@@ -286,7 +273,8 @@ class main{
 }
 
 
- without third variable
+
+12. WAP TO TAKE INPUT FOR SWAP TWO NUMBWE WITHOUT THIRD VARIABLE; --------
 class main{
     public static void main(String va[]){
         int a = 1;
@@ -430,4 +418,5 @@ class main{
         }
     }
 }
+
 
