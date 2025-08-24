@@ -9,9 +9,10 @@
 9. WAP TO TAKE INPUT FOR CHECK ANY 3 NUMBER WHICH NUMBER IS GREATER WRITTEN BY ME -- FAILS MANY CONDITION 
 10. WAP TO TAKE INPUT FOR WHICH NUMBER IS GREATER IN ANY 3 NUMBER; FAILS EQUAL CONDITIONS
 11. WAP TO TAKE INPUT FOR SWAP 3 NUMBER WITH THIRD VARIABLE;
-11. WAP TO TAKE INPUT FOR SWAP 2 NUMBER WITHOUT THIRD VARIABLE;
-
-
+12. WAP TO TAKE INPUT FOR SWAP 2 NUMBER WITHOUT THIRD VARIABLE;
+13. WAP TO TAKE INPUT FOR AREA OF RECTANGLE;
+14. WAP TO TAKE INPUT FOR PERIMETER OF RECTANGLE;
+15. WAP TO TAKE INPUT FOR AREA OF TRIANGLEWITH 2 FORMULA --- 1. USING BASE AND HEIGHT, & USING HERON'S FORMULA;
 
 
 
@@ -289,6 +290,64 @@ class main{
 }
 
 
+
+13. WAP TO TAKE INPUT FOR AREA OF RECTANGLE;
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter length of Rectangle: ");
+        int len = sc.nextInt();
+        
+        System.out.println("Enter breadth of Rectangle: ");
+        int brd = sc.nextInt();
+        
+        int AR_of_Rect = len * brd;
+        System.out.println("Area of rectangle is: " + AR_of_Rect);
+    }
+}
+
+
+
+14. WAP TO TAKE INPUT FOR PERIMETER OF RECTANGLE;
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter length of perimeter Rectangle: ");
+        float len = sc.nextInt();
+        
+        System.out.println("Enter breadth of perimeter Rectangle: ");
+        float brd = sc.nextInt();
+        
+        float Perimeter_of_rectangle = 2 *(len + brd);
+        System.out.println("Area of rectangle is: " + Perimeter_of_rectangle);
+    }
+}
+
+
+
+15. WAP TO TAKE INPUT FOR AREA OF TRIANGLEWITH 2 FORMULA;
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter height of triangle: ");
+        double hieght = sc.nextInt();
+        
+        System.out.println("Enter base of triangle: ");
+        double base = sc.nextInt();
+        
+        double Area_of_triangle = 0.5 * base * hieght;
+        System.out.println("Area of triangle is: " + Area_of_triangle);
+    }
+}
+
+
+
  WAP Tmount out and remain amount;
 import java.util.Scanner;
 class main{
@@ -418,5 +477,6 @@ class main{
         }
     }
 }
+
 
 
